@@ -1,15 +1,14 @@
-Welcome to your new dbt project!
+# Netflix Data Pipeline (dbt + Snowflake)
 
-### Using the starter project
+This project is a data pipeline built using dbt and Snowflake to transform raw movie and user interaction data into structured analytical models.
 
-Try running the following commands:
-- dbt run
-- dbt test
+## Current Progress
+- Set up Snowflake data warehouse
+- Loaded raw data from S3 into Snowflake
+- Built staging models using dbt
 
-
-### Resources:
-- Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
-- Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
-- Join the [chat](https://community.getdbt.com/) on Slack for live discussions and support
-- Find [dbt events](https://events.getdbt.com) near you
-- Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
+## Tech Stack
+- dbt
+- Snowflake
+- SQL
+- AWS S3
